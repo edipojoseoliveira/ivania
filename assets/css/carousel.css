@@ -28,13 +28,14 @@ body {
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(255, 255, 0, 0.1);
+    border: 10px solid rgba(255, 255, 0, 0.2);
 }
 
 /* Declaramos alturas, devido ao posicionamento do elemento img */
 .carousel-item {
     height: 33.5rem;
-    background-color: rgb(179, 179, 179);
+    background-color: rgba(255, 255, 0, 0.5);
 }
 
 .card-personalizado {
@@ -131,5 +132,9 @@ body {
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 7rem;
+    }
+
+    .featurette-image {
+        margin-top: 3rem;
     }
 }
